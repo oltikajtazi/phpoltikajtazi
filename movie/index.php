@@ -68,7 +68,7 @@
 </head>
 <body class="text-center">
     <main class="form-signin">
-        <form action="regjister.php" method="post">
+        <form action="register.php" method="post">
             <img class="mb-4" src="https://purepng.com/public/uploads/large/purepng.com-nike-logologobrand-logoiconslogos-2515199407298sbym.png" width="72" height="57">
             <h1 class="h3 mb-3 fw-normal">Register</h1>
 
@@ -81,17 +81,14 @@
                 <label for="floatingInput" >Username </label>             
             </div>
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Email" name="emri">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Email" name="email">
                 <label for="floatingInput" >Email </label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingInput" placeholder="Password" name="Password">
+                <input type="password" class="form-control" id="floatingInput" placeholder="Password" name="password">
                 <label for="floatingInput" >Password </label>
             </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm password" name="confirm password">
-                <label for="floatingInput" >Confirm password</label>
-            </div>
+       
 
             <div class="checkbox mb-3">
                 <label>
