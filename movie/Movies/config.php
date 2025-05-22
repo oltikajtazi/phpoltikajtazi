@@ -3,7 +3,7 @@
 $user="root";
 $pass="";
 $server="localhost";
-$dbname="dbdolti";
+$dbname="mms";
 
 try {
 	//Creating a PDO to connect with database
